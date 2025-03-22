@@ -215,3 +215,19 @@
     font-size: 20px;
     text-decoration: none;
 }
+.course-outline{
+    padding: 20px;
+    text-align: center;
+    font-family: "poppins", "sans-serif";
+}
+.outline:nth-child(4){
+    color: #4f3ccd;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+:is(.para1, .para2) p{
+    color: #4f3ccd;
+}
