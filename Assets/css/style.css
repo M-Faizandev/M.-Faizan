@@ -231,3 +231,15 @@
 :is(.para1, .para2) p{
     color: #4f3ccd;
 }
+a:link {
+    color: blue;
+  }
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+}
+a:active{
+    color: orange;
+}
