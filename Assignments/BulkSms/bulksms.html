@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/icons/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/bulksms_style.css">
+    <title>BulkSMS.com | SMS Gateway to 213 Countries | BulkSMS.com</title>
+</head>
+<body>
+      <div class="topbar-main">
+      <div class="container-fluid">
+          <div class="header-topbar">
+              <div class="row justify-content-between">
+                  <div class="col-lg-6 col-md-6 col-sm-12 my-auto">
+                      <div class="topbar-left d-flex gap-3">
+                        <div class="dropdown">
+                          <button class="btn dropdown-toggle gap-2 flag-toggle-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://flagcdn.com/w40/pk.png" alt="Pakistan" class="flag-icon"> 
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item text-black gap-2" href="#">
+                                <img src="https://flagcdn.com/w40/us.png" alt="USA" class="flag-icon"> United States
+                              </a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item text-black gap-2" href="#">
+                                <img src="https://flagcdn.com/w40/gb.png" alt="UK" class="flag-icon"> United Kingdom
+                              </a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item text-black gap-2" href="#">
+                                <img src="https://flagcdn.com/w40/in.png" alt="India" class="flag-icon"> India
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                          <a href="#" class="text-decoration-none"><i class="fas fa-phone pe-2 text-white"></i>+44 203 633 4118 / +27 2 1 528 3420</a>
+                      </div>
+                  </div>
+                  <div class="col-3 d-none d-lg-block d-md-block me-2 my-auto">
+                      <div class="topbar-right d-flex justify-content-end align-items-center">  
+                          <input type="search" class="form-control topbar-search form-control-sm" placeholder="Search site...">
+                          <i class="fas fa-magnifying-glass ps-2 text-white"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+
+          <!-- HEADER NAVBAR  -->
+          <!-- HEADER NAVBAR  -->
+          <!-- HEADER NAVBAR  -->
+
+      <div class="header-main">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand header-logo" href="#">
+              <img src="assets/images/bulksms-logo.png" alt="BulkSMS Logo" height="56px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse header-links" id="mainNavbar">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Solutions
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                    <li><a class="dropdown-item" href="#">SMS Solutions</a></li>
+                    <li><a class="dropdown-item" href="#">Voice Services</a></li>
+                    <li><a class="dropdown-item" href="#">Email Messaging</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="developersDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Developers
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="developersDropdown">
+                    <li><a class="dropdown-item" href="#">API Docs</a></li>
+                    <li><a class="dropdown-item" href="#">SDKs</a></li>
+                    <li><a class="dropdown-item" href="#">Integration Guides</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Resources
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Help Center</a></li>
+                    <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Company</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="color: #ff7900 !important;">
+                    Login
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="loginDropdown">
+                    <li><a class="dropdown-item" href="#">Customer Login</a></li>
+                    <li><a class="dropdown-item" href="#">Partner Login</a></li>
+                    <li><a class="dropdown-item" href="#">Admin Login</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form>
+                <button class="btn btn-secondary header-btn me-2" type="submit">Sign Up Today</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+          <!-- HERO SECTION -->
+          <!-- HERO SECTION -->
+          <!-- HERO SECTION -->
+        
+      <div class="hero-main">
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12 text-center text-lg-start text-sm-center text-md-center ">
+            <div class="hero-left">
+              <h1 class="hero-title">Get Your <br>
+                Message Across</h1>
+              <p class="hero-para">A leading provider of business <br>
+                messaging solutions.</p>
+              <a href="#" class="btn btn-primary hero-btn">Register your account today</a>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-sm-12 mb-4 pt-4 hero-right">
+            <img src="assets/images/get-your-message-across.svg" width="100%" height="auto" alt="">
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- CARDS SECTION -->
+          <!-- CARDS SECTION -->
+          <!-- CARDS SECTION -->
+        
+      <div class="cards-main">
+      <div class="container">
+      <div class="row">
+          <div class="col-12 text-center cards-sec-title">
+              <h2>One Account, <br> Many Ways to Send</h2>
+          </div>
+          <div class="cards-block">
+              <div class="row justify-content-evenly">
+                  <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="card1">
+                      <div class="card-thumbnail">
+                          <img src="assets/images/bulksms-responsive-web-app.png" width="100%" alt="Send SMS">
+                      </div>
+                      <div class="card-content">
+                          <h3><a href="" class="text-decoration-none">Send SMS from Web</a></h3>
+                          <p>Use our responsive web app to access your online account from any browser.</p>
+                          <button class="btn btn-secondary" type="submit">Explore Solution</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="card2">
+                      <div class="card-thumbnail">
+                          <img src="assets/images/bulksms-sms-api.png" width="100%" alt="Send SMS">
+                      </div>
+                      <div class="card-content">
+                          <h3><a href="" class="text-decoration-none">Use our SMS API</a></h3>
+                          <p>Send SMSes automatically from your application of choice using our API.</p>
+                          <button class="btn btn-secondary" type="submit">Explore Solution</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row justify-content-evenly">
+                  <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="card3">
+                      <div class="card-thumbnail">
+                          <img src="assets/images/bulksms-text-messenger.png" width="100%" alt="Send SMS">
+                      </div>
+                      <div class="card-content">
+                          <h3><a href="" class="text-decoration-none">Send SMS from Desktop</a></h3>
+                          <p>Manage your SMS communications from your computer using our desktop application.</p>
+                          <button class="btn btn-secondary" type="submit">Explore Solution</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="card4">
+                      <div class="card-thumbnail">
+                          <img src="assets/images/bulksms-integration-gateway.png" width="100%" alt="Send SMS">
+                      </div>
+                      <div class="card-content">
+                          <h3><a href="" class="text-decoration-none">SMS Integration Gateway</a></h3>
+                          <p>Advanced 2-way SMS functionality that directly integrates with various platforms.</p>
+                          <button class="btn btn-secondary" type="submit">Explore Solution</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- CTA SECTION -->
+          <!-- CTA SECTION -->
+          <!-- CTA SECTION -->
+
+      <div class="cta-main">
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center cta-sec-title">
+              <h3>Or are you looking to use the power of an 
+                <a href="#" class="text-decoration-none">Incoming Number?</a>
+              </h3>
+              <button class="btn btn-secondary" type="submit">Try BulkSMS for free</button>
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- WHY CHOOSE US SECTION -->
+          <!-- WHY CHOOSE US SECTION -->
+          <!-- WHY CHOOSE US SECTION -->
+      
+      <div class="ychoose-us-main">
+      <div class="container">
+      <div class="row">
+          <div class="col-12 text-center ychoose-us-title">
+              <h3>Why choose BulkSMS.com?</h3>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 mx-sm-auto">
+              <div class="ychoose-us-block1 text-center">
+                    <div class="ychoose-img">
+                      <img src="assets/images/support-v2.png" width="100%" alt="icon">
+                    </div>
+                    <h3>Dedicated Support</h3>
+                    <p>Our Support Team is dedicated to helping you get your SMS messages across.</p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mx-sm-auto">
+              <div class="ychoose-us-block2 text-center">
+                    <div class="ychoose-img">
+                      <img src="assets/images/delivery-v2.png" width="100%" alt="icon">
+                    </div>
+                    <h3>Reliable Delivery</h3>
+                    <p>We send your messages through the most reliable routes on offer.</p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mx-sm-auto">
+              <div class="ychoose-us-block3 text-center">
+                    <div class="ychoose-img">
+                      <img src="assets/images/transparency-v2.png" width="100%" alt="icon">
+                    </div>
+                    <h3>Clear Regulations</h3>
+                    <p>Easy access to information on industry best practices and regional regulations.</p>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mx-sm-auto">
+              <div class="ychoose-us-block4 text-center">
+                    <div class="ychoose-img">
+                      <img src="assets/images/easy-v2.png" width="100%" alt="icon">
+                    </div>
+                    <h3>Easy Access</h3>
+                    <p>Access all our SMS Solutions with one account.</p>
+              </div>
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- GLOBAL COUNTRIES SECTION -->
+          <!-- GLOBAL COUNTRIES SECTION -->
+          <!-- GLOBAL COUNTRIES SECTION -->
+        
+      <div class="countries-main mb-5">
+      <div class="container">
+      <div class="row">
+          <div class="col-lg-10 col-md-11 col-sm-12 mx-auto countries-sec">
+              <div class="row">
+                <div class="col-lg-10 col-md-11 col-sm-12 mx-auto">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-12">
+                          <div class="countries-sec-title">
+                              <h3>We Connect to Over 800 Networks, Globally.</h3>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/za.svg" width="100%" alt="country">
+                              <span>South Africa</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/de.svg" width="100%" alt="country">
+                              <span>Germany</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/gb.svg" width="100%" alt="country">
+                              <span>United Kingdom</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/us.svg" width="100%" alt="country">
+                              <span>USA</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/sg.svg" width="100%" alt="country">
+                              <span>Singapore</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/fi.svg" width="100%" alt="country">
+                              <span>Finland</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/ca.svg" width="100%" alt="country">
+                              <span>Canada</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/ie.svg" width="100%" alt="country">
+                              <span>Rep. Ireland</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/dk.svg" width="100%" alt="country">
+                              <span>Denmark</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/ru.svg" width="100%" alt="country">
+                              <span>Russia</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <img src="assets/images/no.svg" width="100%" alt="country">
+                              <span>Norway</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-6 pb-5 flags-parent">
+                            <div class="country-flags">
+                              <span class="ms-0">+ 170 Other Countries</span>
+                            </div>
+                        </div>
+                    </div> 
+                  </div>
+                </div>
+                <div class="countries-btn-sec">
+                  <button class="btn btn-secondary countries-btn1" type="submit">View all our Networks</button>
+                  <button class="btn btn-secondary" type="submit">Test Your Networks</button>
+                </div>
+              </div> 
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- REVIEWS/CASE STUDIES SECTION -->
+          <!-- REVIEWS/CASE STUDIES SECTION -->
+          <!-- REVIEWS/CASE STUDIES SECTION -->
+      
+      <div class="reviews-main">
+      <div class="container">
+      <div class="row">
+          <div class="col-12 mb-3">
+              <div class="reviews-sec-title text-center">
+                  <h3>What Our Customers Have to Say</h3>
+                  <p>Have a look at some of our customers success stories:</p>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-6 mx-auto mx-lg-0 mx-md-auto reviews-badges">
+              <div>
+                <img src="assets/images/G2-Easiest-Setup-2024.png" width="100%" alt="">
+              </div>
+              <div>
+                <img src="assets/images/G2-Leader-2024.png" width="100%" alt="">
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-8 col-sm-8 col-12 mx-md-auto">
+              <div class="reviews-table">
+                  <div class="reviews-text1 pb-2">
+                      <a href="#" class="text-decoration-none">Powered By G2</a>
+                  </div>
+                  <div class="reviews-text2">
+                      <h3><a href="#" class="text-decoration-none">BulkSMS.com</a></h3>
+                  </div>
+                  <div class="reviews-text3">
+                      <p>Review by Camille P.</p>
+                      <img src="assets/images/stars-10.svg" alt="">
+                  </div>
+                  <div class="reviews-text4">
+                      <p>2023-03-06</p>
+                  </div>
+                  <section class="d-flex message">
+                      <a href="#">
+                          <img src="assets/images/bulksms.webp" alt="">
+                      </a>
+                      <h2 class="reviews-text6">Solid and easy interface with 2-way communication to clients</h2>
+                  </section>
+                  <div class="reviews-text7">
+                      <p>Love the fact this interface allows me to get responses from customers, in a way that is easy for them to send feedback or quick updates. You can s...</p>
+                  </div>
+                  <div class="reviews-text8 text-center">
+                      <a href="#" class="text-decoration-none">Read more bulksms-com reviews</a>
+                  </div>
+              </div>
+              <div class="reviews-btn text-center">
+                <button class="mx-3 btn btn-secondary" type="submit">Read our Reviews on G2 <i class="fas fa-arrow-right"></i></button>
+              </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-sm-12 col-12 mt-sm-4 mt-md-4 mt-4">
+            <div class="case-studies-blocks">
+              <div class="row">
+                <div class="col-4 pb-3 case-block1">
+                  <div class="cs-logos"><a href="#"><img width="100%" src="assets/images/home-fly-sa-fair.png"></a></div>
+                </div>
+                <div class="col-4 pb-3 case-block2">
+                  <div class="cs-logos"><a href="#"><img class="cs-logo1" width="100%" src="assets/images/home-cts-logo.png"></a></div>
+                </div>
+                <div class="col-4 pb-3 case-block3">
+                  <div class="cs-logos"><a href="#"><img width="100%" src="assets/images/home-santa.png"></a></div>
+                </div>
+                <div class="col-4 pb-3 case-block4">
+                  <div class="cs-logos"><a href="#"><img width="100%" src="assets/images/home-bee.png"></a></div>
+                </div>
+                <div class="col-4 pb-3 case-block5">
+                  <div class="cs-logos"><a href="#"><img width="100%" src="assets/images/home-sme.png"></a></div>
+                </div>
+                <div class="col-4 pb-3 case-block6">
+                  <div class="cs-logos"><a href="#"><img width="100%" src="assets/images/home-q8.png"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="case-studies-btn text-center">
+                <button class="mx-3 btn btn-secondary" type="submit">See Our Case Studies <i class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- NEWSLETTER/PRICING SECTION -->
+          <!-- NEWSLETTER/PRICING SECTION -->
+          <!-- NEWSLETTER/PRICING SECTION -->
+        
+      <div class="pricing-main mt-4">
+      <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <div class="pricing-sec-title">
+                  <h2>Join BulkSMS Today</h2>
+                  <h3>Keep on Connecting</h3>
+              </div>
+              <div class="pricing-sec-btns text-center">
+                <button class="btn btn-secondary pricing-btn1" type="submit">Sign up today!</button>
+                <button class="btn btn-secondary" type="submit">View our Pricing <i class="fas fa-arrow-right"></i></button>
+              </div>
+          </div>
+      </div>
+      </div>
+      </div>
+
+          <!-- FOOTER SECTION -->
+          <!-- FOOTER SECTION -->
+          <!-- FOOTER SECTION -->
+           
+          <footer class=" mt-5 py-3">
+            <div class="container">
+              <div class="row ">
+                <div class="col-sm-6 col-md-6 col-lg-3 footer-col1">
+                  <h5 class="mb-3 text-uppercase">Solutions & Pricing</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">SMS Pricing</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS from the Web</a></li>
+                    <li><a href="#" class="text-decoration-none">Desktop SMS Software</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS API</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS from iPhone</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS Integrations</a></li>
+                    <li><a href="#" class="text-decoration-none">Incoming Long Numbers</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS Shortcodes</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS Solutions Overview</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3  footer-col2">
+                  <h5 class="mb-3 text-uppercase">About Us</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">About BulkSMS.com</a></li>
+                    <li><a href="#" class="text-decoration-none">Support</a></li>
+                    <li><a href="#" class="text-decoration-none">Legal</a></li>
+                    <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="#" class="text-decoration-none">Cookies Policy</a></li>
+                    <li><a href="#" class="text-decoration-none">Cookies Settings</a></li>
+                    <li><a href="#" class="text-decoration-none">Careers</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3  footer-col3">
+                  <h5 class="mb-3 text-uppercase">SMS Resources</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Community SMS Messaging</a></li>
+                    <li><a href="#" class="text-decoration-none">F.A.Q</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS Resources</a></li>
+                    <li><a href="#" class="text-decoration-none">Customer Stories</a></li>
+                    <li><a href="#" class="text-decoration-none">Industry Trends</a></li>
+                    <li><a href="#" class="text-decoration-none">SMS Regulations</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 footer-col4">
+                  <h5 class="mb-3 text-uppercase">Industry Associations & Security</h5>
+                  <div class="row">
+                    <div class="col-6 mb-3">
+                      <a href="#"><img src="assets/images/waspa-footer.png" alt="WASPA" width="100%"></a>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <a href="#"><img src="assets/images/trust-footer.png" alt="Trust" width="100%"></a>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <a href="#"><img src="assets/images/mef-footer.png" alt="MEF" width="100%"></a>
+                    </div>
+                    <div class="col-6 mb-3">
+                      <a href="#"><img src="assets/images/www.bulksms.png" alt="" width="100%"></a>
+                    </div>
+                    <div class="col-8 mx-auto">
+                      <img src="assets/images/just-footer-gurl.svg" alt="" width="100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center alphabetic-links-sec">
+                <div class="col-lg-3 d-flex align-items-center">
+                  <h3 class="mb-0">SMS COVERAGE DIRECTORY</h3>
+                </div>
+                <div class="col-lg-9 d-flex align-items-center">
+                  <div class="alphabetic-links w-100">
+                    <ul class="d-lg-flex justify-content-between flex-wrap mb-0">
+                      <li><a href="#" class="text-decoration-none" style="color: #ff7900;">A</a></li>
+                      <li><a href="#" class="text-decoration-none">B</a></li>
+                      <li><a href="#" class="text-decoration-none">C</a></li>
+                      <li><a href="#" class="text-decoration-none">D</a></li>
+                      <li><a href="#" class="text-decoration-none">E</a></li>
+                      <li><a href="#" class="text-decoration-none">F</a></li>
+                      <li><a href="#" class="text-decoration-none">G</a></li>
+                      <li><a href="#" class="text-decoration-none">H</a></li>
+                      <li><a href="#" class="text-decoration-none">I</a></li>
+                      <li><a href="#" class="text-decoration-none">J</a></li>
+                      <li><a href="#" class="text-decoration-none">K</a></li>
+                      <li><a href="#" class="text-decoration-none">L</a></li>
+                      <li><a href="#" class="text-decoration-none">M</a></li>
+                      <li><a href="#" class="text-decoration-none">N</a></li>
+                      <li><a href="#" class="text-decoration-none">O</a></li>
+                      <li><a href="#" class="text-decoration-none">P</a></li>
+                      <li><a href="#" class="text-decoration-none">Q</a></li>
+                      <li><a href="#" class="text-decoration-none">R</a></li>
+                      <li><a href="#" class="text-decoration-none">S</a></li>
+                      <li><a href="#" class="text-decoration-none">T</a></li>
+                      <li><a href="#" class="text-decoration-none">U</a></li>
+                      <li><a href="#" class="text-decoration-none">V</a></li>
+                      <li><a href="#" class="text-decoration-none">W</a></li>
+                      <li><a href="#" class="text-decoration-none">X</a></li>
+                      <li><a href="#" class="text-decoration-none">Y</a></li>
+                      <li><a href="#" class="text-decoration-none">Z</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>    
+              <div class="row copyright-sec">
+                <div class="col-lg-5 col-md-5 col-sm-12 mb-sm-3 text-lg-start text-md-start text-center text-sm-center copyright-text">
+                  <p>© 2000 - 2025 Celerity Systems (Pty) Ltd. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-sm-3 text-lg-end text-md-end text-center text-sm-center support-mail text-end">
+                  <p>Need support? Reach out at <a href="#" class="text-decoration-none">support@bulksms.com</a>.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 text-sm-center text-lg-end text-md-end text-center footer-social-icons">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><img src="assets/images/app-store-badge.svg" alt=""></a>
+                </div>
+              </div>          
+            </div>
+          </footer>
+          
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
