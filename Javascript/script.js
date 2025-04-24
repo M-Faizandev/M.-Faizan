@@ -154,3 +154,6 @@
 //     default:
 //         document.write("It's Not a Weekday");
 // }  
+    function name(params) {
+        
+    }
